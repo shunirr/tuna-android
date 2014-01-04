@@ -4,10 +4,14 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import jp.s5r.android.tuna.model.Log;
@@ -15,12 +19,13 @@ import jp.s5r.android.tuna.model.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LogsFragment extends Fragment {
+public class LogsFragment extends Fragment implements TextView.OnEditorActionListener {
     private static final String ARG_SECTION_NUMBER = "section_number";
 
     private List<Log> mLogs;
     private Adapter mAdapter;
     private ListView mListView;
+    private EditText mEditText;
 
     public static LogsFragment newInstance(int sectionNumber) {
         LogsFragment fragment = new LogsFragment();
@@ -37,9 +42,13 @@ public class LogsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.main_fragment, container, false);
-        mListView = (ListView) rootView.findViewById(R.id.listView);
-        mAdapter = new Adapter(getActivity(), getLogs());
-        mListView.setAdapter(mAdapter);
+        if (rootView != null) {
+            mListView = (ListView) rootView.findViewById(R.id.listView);
+            mEditText = (EditText) rootView.findViewById(R.id.editText);
+            mEditText.setOnEditorActionListener(this);
+            mAdapter = new Adapter(getActivity(), getLogs());
+            mListView.setAdapter(mAdapter);
+        }
         return rootView;
     }
 
@@ -68,10 +77,47 @@ public class LogsFragment extends Fragment {
         return mLogs;
     }
 
+    private MainActivity getMainActivity() {
+        Activity a = getActivity();
+        if (a != null && a instanceof MainActivity) {
+            return (MainActivity) a;
+        }
+        return null;
+    }
+
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
-        ((MainActivity) activity).onSectionAttached(getArguments().getInt(ARG_SECTION_NUMBER));
+        getMainActivity().onSectionAttached(getArguments().getInt(ARG_SECTION_NUMBER));
+    }
+
+    private String getEditTextString() {
+        String message = null;
+        if (mEditText != null) {
+            Editable e = mEditText.getText();
+            if (e != null) {
+                message = e.toString();
+            }
+        }
+        return message;
+    }
+
+    private boolean onEnter() {
+        String message = getEditTextString();
+        if (!TextUtils.isEmpty(message)) {
+            getMainActivity().sendMessage("PRIVMSG", "#timeline@tm", message);
+            mEditText.setText("");
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+        if (event != null && event.getKeyCode() == KeyEvent.KEYCODE_ENTER) {
+            return onEnter();
+        }
+        return false;
     }
 
     private static class Adapter extends BaseAdapter {
@@ -127,12 +173,22 @@ public class LogsFragment extends Fragment {
             TextView message;
         }
 
+        public void cleanupOldLogs() {
+            if (mLogs.size() > 100) {
+                for (int i = 0; i < 100; i++) {
+                    mLogs.remove(i);
+                }
+            }
+        }
+
         public void addAll(List<Log> logs) {
             mLogs.addAll(logs);
+            cleanupOldLogs();
         }
 
         public void add(Log log) {
             mLogs.add(log);
+            cleanupOldLogs();
         }
     }
 }

@@ -12,6 +12,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.google.gson.Gson;
 import jp.s5r.android.tuna.model.Log;
 import jp.s5r.android.tuna.service.TunaClient;
 import jp.s5r.android.tuna.util.L;
@@ -47,8 +48,6 @@ public class MainActivity extends Activity
         SharedPreferences preferences =
                 PreferenceManager.getDefaultSharedPreferences(this);
         String str = preferences.getString("settings_server_url", null);
-
-        L.i("Server URL: " + str);
 
         if (!TextUtils.isEmpty(str)) {
             URI uri = null;
@@ -133,5 +132,9 @@ public class MainActivity extends Activity
                 mCurrentFragment.addLog(log);
             }
         });
+    }
+
+    public void sendMessage(String method, String channel, String message) {
+        mTuna.send(new Gson().toJson(new String[] {method, channel, message}));
     }
 }

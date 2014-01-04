@@ -92,7 +92,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="75" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1845">
+            <state line="134" column="4" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1875">
               <folding />
             </state>
           </provider>
@@ -109,22 +109,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_activity.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_activity.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuna-android/src/main/res/layout/main_activity.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="54" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.8199052" vertical-offset="59" max-vertical-offset="540">
+            <state line="27" column="54" selection-start="1429" selection-end="1429" vertical-scroll-proportion="-7.7884617" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogsFragment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LogsFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/LogsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="42" selection-start="3637" selection-end="3637" vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="1980">
+            <state line="156" column="78" selection-start="4861" selection-end="4861" vertical-scroll-proportion="0.35888502" vertical-offset="1879" max-vertical-offset="2760">
               <folding />
             </state>
           </provider>
@@ -153,7 +153,7 @@
       <file leaf-file-name="TunaClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/service/TunaClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="8" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+            <state line="63" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -186,7 +186,7 @@
       <file leaf-file-name="L.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/util/L.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="23" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="1995">
+            <state line="59" column="23" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="1099" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
@@ -552,7 +552,6 @@
         <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/util/L.java" />
         <option value="$PROJECT_DIR$/tuna-android/build.gradle" />
         <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/DummyFragment.java" />
-        <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/LogsFragment.java" />
         <option value="$PROJECT_DIR$/tuna-android/src/main/res/layout/log_item.xml" />
         <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/NavigationDrawerFragment.java" />
         <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/model/Log.java" />
@@ -564,6 +563,7 @@
         <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/service/TunaClient.java" />
         <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/MainActivity.java" />
+        <option value="$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/LogsFragment.java" />
       </list>
     </option>
   </component>
@@ -1080,12 +1080,12 @@
       <workItem from="1388740822652" duration="2056000" />
       <workItem from="1388742899575" duration="6248000" />
       <workItem from="1388815083216" duration="2375000" />
-      <workItem from="1388817591083" duration="3765000" />
+      <workItem from="1388817591083" duration="6140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16890000" />
+    <option name="totallyTimeSpent" value="19265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -1103,16 +1103,16 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2567237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25518927" sideWeight="0.49910873" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294621" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40987125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25611246" sideWeight="0.50089127" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39806867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39806867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1373,13 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/util/L.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="23" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.java-websocket/Java-WebSocket/1.3.0/jar/db2658f013fb163de4a99274c2eb9e17efe535d2/Java-WebSocket-1.3.0.jar!/org/java_websocket/WebSocketImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="0" selection-start="5494" selection-end="5494" vertical-scroll-proportion="0.86868685" vertical-offset="1280" max-vertical-offset="1800" />
@@ -1419,20 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/NavigationDrawerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="38" selection-start="3768" selection-end="3768" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="3855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/model/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="54" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tuna-android/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="36" selection-start="908" selection-end="908" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
@@ -1456,13 +1435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/service/TunaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="8" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.java-websocket/Java-WebSocket/1.3.0/jar/db2658f013fb163de4a99274c2eb9e17efe535d2/Java-WebSocket-1.3.0.jar!/org/java_websocket/client/WebSocketClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="16" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.904661" vertical-offset="23" max-vertical-offset="1755">
@@ -1479,20 +1451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/LogsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="42" selection-start="3637" selection-end="3637" vertical-scroll-proportion="0.0" vertical-offset="1099" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="75" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="1845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tuna-android/src/main/res/xml/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="52" selection-start="248" selection-end="248" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="315">
@@ -1505,7 +1463,62 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="54" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.8199052" vertical-offset="59" max-vertical-offset="540">
+        <state line="27" column="54" selection-start="1429" selection-end="1429" vertical-scroll-proportion="-7.7884617" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/model/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="54" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/service/TunaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/NavigationDrawerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="12" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3450">
+          <folding>
+            <element signature="docComment;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="docComment;field#STATE_SELECTED_POSITION#0;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="docComment;field#PREF_USER_LEARNED_DRAWER#0;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="docComment;field#mCallbacks#0;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="docComment;field#mDrawerToggle#0;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="e#2194#2282#0" expanded="false" />
+            <element signature="docComment;method#setUp#0;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="e#4891#4957#0" expanded="false" />
+            <element signature="docComment;method#showGlobalContextActionBar#0;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="e#9915#9932#0" expanded="true" />
+            <element signature="docComment;class#NavigationDrawerCallbacks#0;class#NavigationDrawerFragment#0" expanded="false" />
+            <element signature="docComment;method#onNavigationDrawerItemSelected#0;class#NavigationDrawerCallbacks#0;class#NavigationDrawerFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/util/L.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="23" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="4" selection-start="4265" selection-end="4265" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuna-android/src/main/java/jp/s5r/android/tuna/LogsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="78" selection-start="4861" selection-end="4861" vertical-scroll-proportion="0.35888502" vertical-offset="1879" max-vertical-offset="2760">
           <folding />
         </state>
       </provider>
