@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings">
+        <EditTextPreference
+                android:key="settings_server_password"
+                android:title="Tuna Password"
+                android:summary="Tuna Password"
+                android:dialogTitle="Tuna Password" />
+        <EditTextPreference
+                android:key="settings_server_url"
+                android:title="Tuna Server URL"
+                android:summary="Tuna Server URL"
+                android:dialogTitle="Tuna Server URL" />
+    </PreferenceCategory>
+</PreferenceScreen>
